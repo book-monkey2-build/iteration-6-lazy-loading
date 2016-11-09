@@ -51459,11 +51459,11 @@ var routes = [
     },
     {
         path: 'books',
-        loadChildren: 'app/book-monkey/iteration-6/lazy-loading/book/book.module#BookModule'
+        loadChildren: 'appbook/book.module#BookModule'
     },
     {
         path: 'admin',
-        loadChildren: 'app/book-monkey/iteration-6/lazy-loading/admin/admin.module#AdminModule'
+        loadChildren: 'appadmin/admin.module#AdminModule'
     }
 ];
 var AppRoutingModule = (function () {
